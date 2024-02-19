@@ -10,7 +10,15 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     baseUrl: "ivansaul.github.io/wiki",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: [
+      "private",
+      "templates",
+      ".obsidian",
+      "Personal",
+      "work",
+      "Templates",
+      "temp",
+    ],
     defaultDateType: "created",
     theme: {
       typography: {
